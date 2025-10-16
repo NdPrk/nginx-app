@@ -1,4 +1,3 @@
-cat > deployment.yaml <<EOF
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -19,4 +18,3 @@ spec:
         image: nginx:stable
         ports:
         - containerPort: 80
-EOF
